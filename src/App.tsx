@@ -5,16 +5,13 @@ import { Categories } from "./pages/Categories";
 import { Genre } from "./pages/Genre";
 import { Country } from "./pages/Country";
 import { GenresOfCountry } from "./pages/GenresOfCountry";
-import Unloader from "./components/Unloader";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Unloader>
-            <Route index element={<Home />} />
-          </Unloader>
+          <Route index element={<Home />} />
           <Route path="/categories" element={<Categories />} />
           <Route
             path="/categories/country/all/genres/:genre"

@@ -1,5 +1,5 @@
 import React from "react";
 
 export function Categories() {
-  return <div>This is Categories</div>;
+  return <h1>This is Categories</h1>;
 }

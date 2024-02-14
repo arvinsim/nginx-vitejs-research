@@ -3,5 +3,5 @@ import { useParams } from "react-router-dom";
 
 export function Country() {
   const { country } = useParams();
-  return <div>This is Country {country}</div>;
+  return <h1>This is Country {country}</h1>;
 }

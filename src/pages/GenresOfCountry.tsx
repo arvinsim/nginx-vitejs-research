@@ -4,8 +4,8 @@ import { useParams } from "react-router-dom";
 export function GenresOfCountry() {
   const { country, genre } = useParams();
   return (
-    <div>
+    <h1>
       This is Genre {genre} of Country {country}
-    </div>
+    </h1>
   );
 }
